@@ -49,16 +49,16 @@
     // style
     'live2dHeight': 680,                        // height of Live2D model, NO 'px' in the end
     'live2dWidth': 500,                         // width of Live2D model, NO 'px' in the end
-    'waifuMinWidth': '1040px',                  // hide model when window width less than setting, eg, '1040px' (Recommend) or 'disable'
+    'waifuMinWidth':  'disable',                  // hide model when window width less than setting, eg, '1040px' (Recommend) or 'disable'
     'waifuEdgeSide': 'right:0',                 // position of model, eg, 'left:0' or 'right:30', can be override by model setting
     // misc
     'debug': false,                             // global debug setting
     'debugMousemove': false,                    // log cursor postion to console, valid if debug is true
     'logMessageToConsole': true,                // log message tips to console
     'l2dVersion': '2.0.0',                      // script version
-    'homePageUrl': 'https://rivens.bronya.moe/',  // homepage, could be URL or 'auto'
-    'aboutPageUrl': 'https://github.com/Konata09/Live2dOnWeb/', // about page
-    'screenshotCaptureName': 'bronyaMoe.png',   // filename of screenshot, eg, 'live2d.png'
+    'homePageUrl': 'https://github.com/MakeRedundant',  // homepage, could be URL or 'auto'
+    'aboutPageUrl': 'https://github.com/MakeRedundant/Live2D_demo', // about page
+    'screenshotCaptureName': 'live2d.png',   // filename of screenshot, eg, 'live2d.png'
 }
 // 模型列表
 const live2d_models = [

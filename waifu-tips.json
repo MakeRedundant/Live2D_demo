@@ -186,12 +186,7 @@
         {
             "selector": "#live2d2,#live2d4",
             "text": [
-                "Unidentified object detected, radar fully activated", "Potential threat detected, entering alert mode", "Heavy Armored Bunny 19C, unidentified intrusion detected in core body parts", "Heavy Armored Bunny 19C, Fire!", "Oh no, the enemy has found the blind spot in Heavy Armored Bunny's defense", "Huh? Detected another dangerous individual", "Full-field detection initiated",
-                "Dangerous individual, stay away from me", "This is Bronya's neural center, do not touch randomly", "Malicious behavior detected, affection index decreasing", "Root access to central computer obtained, about to broadcast Captain's actions to the entire ship",
-                "Bronya cannot analyze Captain's actions", "Enhanced defense in this area, Bronya won't give the enemy a second chance", "Bronya received unidentified action instructions", "HP3074 file shows that head patting is a subtle expression of comfort, encouragement, or affection,<br>So, what does Captain want to express?",
-                "Abnormal neural waveform detected, seems to represent an unknown emotional change", "Captain, what should Bronya do now?", "Captain, Bronya detected rising body temperature", "Captain's body temperature is 36.8 degrees, exceeds standard by 0.1 degree, within normal range", "Defense system has recognized Captain as friendly, Captain won't be attacked",
-                "Mom, why did Bronya think of Mom?", "Captain, Bronya doesn't know how to express this at the moment", "Captain, unknown reasons causing Bronya's body temperature to rise", "Captain, if this continues, Bronya's neural center will break down", "It seems Heavy Armored Bunny 19C really likes Captain",
-                "Bronya's defense mechanism will be permanently deactivated for Captain~", "Captain, do you want Bronya to remove the strong armored plating from her legs?"
+                "Javascript is pain", "Web development is fun", "I code through youtube", "Driving through peak hour traffic is fun", "Please let me sleep", "Chat GPT wrote this"
             ]
         }
     ],
