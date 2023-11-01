@@ -186,7 +186,8 @@
         {
             "selector": "#live2d2,#live2d4",
             "text": [
-                "Javascript is pain", "Web development is fun", "I code through youtube", "Driving through peak hour traffic is fun", "Please let me sleep", "Chat GPT wrote this"
+                "Javascript is pain", "Web development is fun", "I code through youtube", "Driving through peak hour traffic is fun", "Please let me sleep", "Chat GPT wrote this",
+                "Inflation is too high", "Taxes are too high", "Praise the sun!"
             ]
         }
     ],
