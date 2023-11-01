@@ -1,0 +1,245 @@
+{
+    "waifu": {
+        "console_open_msg": ["Haha, you opened the console, are you trying to see my secrets?"],
+        "copy_message": ["What did you copy? Remember to credit the source if you repost."],
+        "screenshot_message": ["Is it taken? Isn't it cute?"],
+        "hidden_message": ["Captain's supplies are guaranteed, zero drops in captain's copies."],
+        "load_rand_textures": ["I don't have any other clothes yet", "Are my new clothes nice?"],
+        "hour_tips": {
+            "t5-7": ["Good morning! The day's plan starts in the morning, have a wonderful day!"],
+            "t7-11": ["Good morning! Is work going well? Don't sit for too long, get up and move around!"],
+            "t11-14": ["It's noon, you've worked the morning, it's lunchtime now!"],
+            "t14-17": ["It's easy to feel drowsy in the afternoon, have you achieved your exercise goals today?"],
+            "t17-19": ["Evening is here! The sunset outside the window is beautiful, nothing is more beautiful than the evening glow~"],
+            "t19-21": ["Good evening, how was your day?"],
+            "t21-23": ["It's already late, go to bed early, good night~"],
+            "t23-5": ["Are you a night owl? It's so late, aren't you going to sleep? Can you wake up tomorrow?"],
+            "default": ["Hi~ Come and play with me!"]
+        },
+        "referrer_message": {
+            "localhost": ["Welcome to read <span style=\"color:DarkBlue;\">'", "'</span>", " - "],
+            "baidu": ["Hello! Friends from Baidu search<br>Did you find me through the search <span style=\"color:DarkBlue;\">", "</span>?"],
+            "so": ["Hello! Friends from 360 search<br>Did you find me through the search <span style=\"color:DarkBlue;\">", "</span>?"],
+            "google": ["Hello! Friends from Google search<br>Welcome to read <span style=\"color:DarkBlue;\">'", "'</span>", " - "],
+            "default": ["Hello! Friends from <span style=\"color:DarkBlue;\">", "</span>"],
+            "none": ["Welcome to read <span style=\"color:DarkBlue;\">'", "'</span>", " - "]
+        },
+        "referrer_hostname": {
+            "note6.konata.tech": ["You really can't do without me, huh ^_^"],
+            "note.konata.tech": ["You really can't do without me, huh ^_^"]
+        },
+        "model_message": {},
+        "hitokoto_api_message": {
+            "lwl12.com": ["This quote comes from <span style=\"color:DarkBlue;\">'", "{source}'</span>", ", submitted by <span style=\"color:DarkBlue;\">{creator}</span>."],
+            "fghrsh.net": ["This quote is from <span style=\"color:DarkBlue;\">'", "{source}'</span>, collected by <span style=\"color:DarkBlue;\">FGHRSH</span> on {date}!"],
+            "jinrishici.com": ["This poem is from <span style=\"color:DarkBlue;\">'<i>{title}</i>'</span>, created by {dynasty} poet {author}."]
+        }
+    },
+
+
+    "mouseover": [
+        {
+            "selector": ".container a[href^=\"http\"]",
+            "text": ["Want to see <span style=\"color:DarkBlue;\">{text}</span>?"]
+        },
+        {
+            "selector": ".waifu-tool>.icon-home",
+            "text": ["Click here to go to the homepage~"]
+        },
+        {
+            "selector": ".waifu-tool>.icon-message",
+            "text": ["Talking is fun as well"]
+        },
+        {
+            "selector": ".waifu-tool>.icon-next",
+            "text": ["Hmm... Do you want to switch to another character?"]
+        },
+        {
+            "selector": ".waifu-tool>.icon-camera",
+            "text": ["Want to take a commemorative photo?"]
+        },
+        {
+            "selector": ".waifu-tool>.icon-about",
+            "text": ["There's information about me here."]
+        },
+        {
+            "selector": ".waifu-tool>.icon-cross",
+            "text": ["Captain's supplies are guaranteed, zero drops in captain's copies."]
+        },
+        {
+            "selector": ".waifu-tool>.icon-volumeup",
+            "text": ["Can't hear the music clearly?"]
+        },
+        {
+            "selector": ".waifu-tool>.icon-volumedown",
+            "text": ["Is the music too loud?"]
+        },
+        {
+            "selector": "#floating-toc-btn",
+            "text": ["Finding it troublesome to flip pages? Click to show the table of contents for this article."]
+        },
+        {
+            "selector": "#searchIcon",
+            "text": ["Can't find what you want to read? Try searching."]
+        },
+        {
+            "selector": "#backTop",
+            "text": ["Go back to the beginning."]
+        },
+        {
+            "selector": ".mute",
+            "text": ["Click here to mute."]
+        },
+        {
+            "selector": "a[href^=\"/\"]>.fa-angle-left",
+            "text": ["Go to the previous page."]
+        },
+        {
+            "selector": "a[href^=\"/page/\"]>.fa-angle-right",
+            "text": ["Go to the next page."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Want to leave a comment?"]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Take care of your eyes at night."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Scan with your phone to continue reading, it's convenient."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Want to complain about something?"]
+        },
+        {
+            "selector": "#comment",
+            "text": ["How should I address you?"]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Leave your email, otherwise, you'll be an anonymous user."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Where is your home? Let me visit."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Fill in seriously, spam comments are prohibited."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Want to insert an emoji?"]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Ready to [submit]^(Commit)? First-time comments need approval, please be patient~"]
+        },
+        {
+            "selector": "#comment",
+            "text": ["Click on the image to enlarge."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["This is the menu."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["You can adjust the <span style=\"color:DarkBlue;\">playback progress</span> here."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["You can adjust the <span style=\"color:DarkBlue;\">volume</span> here."]
+        },
+        {
+            "selector": "#comment",
+            "text": ["What's in the <span style=\"color:DarkBlue;\">playlist</span>?"]
+        },
+        {
+            "selector": "#comment",
+            "text": ["If there are <span style=\"color:DarkBlue;\">lyrics</span>, you can sing along."]
+        },
+        {
+            "selector": "#live2d2,#live2d4",
+            "text": [
+                "Hey! Are you trying to court death?",
+                "Oh my! Get away!",
+                "Oh my! Go away!",
+                "How annoying! Remove your hand!",
+                "Hey! I can bite!",
+                "Huh? Do you want to be beaten up?",
+                "What are you doing? Hmph!",
+                "So shameless! Is it that pleasurable?",
+                "Captain's hands are not following orders again?",
+                "Not allowed! That's off-limits!",
+                "Haha, go away, it tickles.",
+                "Ah, don't think I don't know, what are you thinking...",
+                "Eh? Really, you... forget it."
+            ]
+        }
+    ],
+    
+    "click": [
+        {
+            "selector": "#live2d2,#live2d4",
+            "text": [
+                "Unidentified object detected, radar fully activated", "Potential threat detected, entering alert mode", "Heavy Armored Bunny 19C, unidentified intrusion detected in core body parts", "Heavy Armored Bunny 19C, Fire!", "Oh no, the enemy has found the blind spot in Heavy Armored Bunny's defense", "Huh? Detected another dangerous individual", "Full-field detection initiated",
+                "Dangerous individual, stay away from me", "This is Bronya's neural center, do not touch randomly", "Malicious behavior detected, affection index decreasing", "Root access to central computer obtained, about to broadcast Captain's actions to the entire ship",
+                "Bronya cannot analyze Captain's actions", "Enhanced defense in this area, Bronya won't give the enemy a second chance", "Bronya received unidentified action instructions", "HP3074 file shows that head patting is a subtle expression of comfort, encouragement, or affection,<br>So, what does Captain want to express?",
+                "Abnormal neural waveform detected, seems to represent an unknown emotional change", "Captain, what should Bronya do now?", "Captain, Bronya detected rising body temperature", "Captain's body temperature is 36.8 degrees, exceeds standard by 0.1 degree, within normal range", "Defense system has recognized Captain as friendly, Captain won't be attacked",
+                "Mom, why did Bronya think of Mom?", "Captain, Bronya doesn't know how to express this at the moment", "Captain, unknown reasons causing Bronya's body temperature to rise", "Captain, if this continues, Bronya's neural center will break down", "It seems Heavy Armored Bunny 19C really likes Captain",
+                "Bronya's defense mechanism will be permanently deactivated for Captain~", "Captain, do you want Bronya to remove the strong armored plating from her legs?"
+            ]
+        }
+    ],
+    "seasons": [
+        {
+            "date": "01/01",
+            "text": ["<span style=\"color:DarkBlue;\">New Year's Day</span> is here, a new year has begun, it's {year}~"]
+        },
+        {
+            "date": "02/14",
+            "text": ["It's <span style=\"color:DarkBlue;\">Valentine's Day</span> again, did you find someone this year in {year}~"]
+        },
+        {
+            "date": "03/08",
+            "text": ["Today is <span style=\"color:DarkBlue;\">International Women's Day</span>!"]
+        },
+        {
+            "date": "03/12",
+            "text": ["Today is <span style=\"color:DarkBlue;\">Arbor Day</span>, remember to protect the environment"]
+        },
+        {
+            "date": "04/01",
+            "text": ["Psst, let me tell you a secret~ <span style=\"background-color:#34495e;\">Today is April Fools' Day, don't get fooled~</span>"]
+        },
+        {
+            "date": "05/01",
+            "text": ["Today is <span style=\"color:DarkBlue;\">Labor Day</span>, have you planned where to go for the holiday~"]
+        },
+        {
+            "date": "06/01",
+            "text": ["It's <span style=\"color:DarkBlue;\">Children's Day</span>, happy times are always short-lived, wouldn't it be nice if we never grew up…"]
+        },
+        {
+            "date": "09/9",
+            "text": ["<span style=\"color:DarkBlue;\">Happy Birthday</span>, it's my Birthday!!~"]
+        },
+        {
+            "date": "09/10",
+            "text": ["<span style=\"color:DarkBlue;\">Teacher's Day</span>, remember to say hello to your teachers at school~"]
+        },
+        {
+            "date": "11/05-11/12",
+            "text": ["Who are you spending this year's <span style=\"color:DarkBlue;\">Double Eleven</span> with~"]
+        },
+        {
+            "date": "12/20-12/31",
+            "text": ["These days are <span style=\"color:DarkBlue;\">Christmas</span>, the master must be going on a shopping spree again~"]
+        }
+    ]
+    }
+    

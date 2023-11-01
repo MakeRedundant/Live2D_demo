@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live2D</title>
+    <link rel="stylesheet" type="text/css" href="assets/demo.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/waifu.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+<body>
+<header class="navbar-fixed">
+    <nav class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <ul class="right">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i id="searchIcon" class="fa fa-search" title="search"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div style="margin-top: -64px;">
+    <div class="white-text bg-cover">
+        <div class="container">
+            <div class="title center-align">
+                Live2D Demo
+            </div>
+            <script>
+                document.getElementsByClassName('bg-cover')[0].style.backgroundImage = "url('assets/bk.jpg')";
+            </script>
+            <div class="cover-btns">
+                <a href="https://github.com/Konata09/Live2dOnWeb" class="btn" target="_blank">
+                    Github
+                </a>
+                <a class="btn" onclick="sessionStorage.removeItem('waifuHide');document.getElementById('waifu').classList.remove('hide');initModel()">
+                    Show Waifu
+                </a>
+            </div>
+        </div>
+        <div class="footer">
+            &copy;2023 Brian Trang
+        </div>
+    </div>
+</div>
+<div id="waifu">
+    <div id="waifu-message"></div>
+    <div class="waifu-tool">
+        <span class="icon-next"></span>
+        <span class="icon-home"></span>
+        <span class="icon-message"></span>
+        <span class="icon-camera"></span>
+        <span class="icon-volumeup"></span>
+        <span class="icon-volumedown"></span>
+        <span class="icon-about"></span>
+        <span class="icon-cross"></span>
+    </div>
+    <canvas id="live2d2"></canvas>
+    <canvas id="live2d4"></canvas>
+</div>
+<!-- <script src="dist/live2d_bundle.js"></script> -->
+<script src="dist/live2d_bundle.js"></script>
+<script async type="module" src="waifu-tips.js"></script>
+</body>
+</html>
