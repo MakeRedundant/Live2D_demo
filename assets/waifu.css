@@ -7,8 +7,11 @@
 
 #waifu-message {
     font-size: 1rem;
-    width: -moz-fit-content;
-    width: fit-content;
+    /* width: -moz-fit-content;
+    width: fit-content; */
+    width: 200px; /* Set a specific width for the message container */
+    word-wrap: break-word; /* Allows long words to be broken and wrap onto the next line */
+    white-space: normal; /* Allows multiple lines of text */
     height: auto;
     left: 2rem;
     top: 20px;
