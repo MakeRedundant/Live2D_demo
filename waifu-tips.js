@@ -34,7 +34,7 @@
     'showToolMenu': true,                       // show tools
     'canCloseLive2d': true,                     // show close button
     'canSwitchModel': true,                     // show switch button
-    'canSwitchHitokoto': true,                  // show switch Hitokoto button
+    'canSwitchHitokoto': false,                  // show switch Hitokoto button
     'canTakeScreenshot': true,                  // show screenshot button
     'canTurnToHomePage': true,                  // show home button
     'canTurnToAboutPage': true,                 // show about button
@@ -90,7 +90,7 @@ const live2d_models = [
     },
 ]
 /****************************************************************************************************/
-// SessionStorage LocalStorage 操作
+// SessionStorage LocalStorage
 const setSS = (k, v) => {
     try {
         sessionStorage.setItem(k, v);
@@ -310,7 +310,7 @@ function loadModel(modelName) {
         setSS('modelName', modelName);
     live2d_settings.debug && console.log(`[WaifuTips] 加载模型 ${modelName}`);
     let modelVersion = 2;
-    // 在配置中找到要加载模型的版本
+    // Find the version of the model you want to load in the configuration
     for (let model of live2d_models) {
         if (model.name === modelName) {
             modelVersion = model.version;
@@ -318,7 +318,7 @@ function loadModel(modelName) {
             break;
         }
     }
-    // 如果要加载的模型版本不同，先释放之前的SDK并隐藏canvas
+    // If the version of the model to be loaded is different, first release the previous SDK and hide the canvas
     if (window.live2dCurrentVersion !== modelVersion) {
         if (window.live2dCurrentVersion === 2) {
             window.live2dv2.release();
@@ -328,7 +328,7 @@ function loadModel(modelName) {
             $$(`#${live2dId4}`).style.display = 'none';
         }
     }
-    // 根据模型版本选择不同的SDK加载
+    // Choose different SDKs to load according to the model version
     if (modelVersion === 2) {
         $$(`#${live2dId2}`).style.display = 'block';
         window.live2dv2.load(live2dId2, `${live2d_settings.modelUrl}/${modelName}/model.json`);
@@ -341,7 +341,7 @@ function loadModel(modelName) {
     window.live2dCurrentVersion = modelVersion;
 }
 
-// 读取记忆的模型
+// A model for reading memory
 function modelStorageGetItem(key) {
     return live2d_settings.modelStorage ? getLS(key) : getSS(key);
 }
@@ -476,7 +476,7 @@ function loadTipsMessage(result) {
             else elseActed();
         }, 1000);
     }
-    /* 检测用户活动状态，并在空闲时显示一言 */
+    /* Detect user activity status and display a message when idle */
     const addHitokotoListener = () => {
         document.addEventListener('mousemove', () => (getActed = true))
         document.addEventListener('keydown', () => (getActed = true))
@@ -511,71 +511,19 @@ function loadTipsMessage(result) {
     }
 
     function showHitokoto() {
-        switch (live2d_settings.hitokotoAPI) {
-            case 'lwl12.com':
-                window.fetch('https://api.lwl12.com/hitokoto/v1?encode=realjson')
-                    .then(res => res.json())
-                    .then(resJson => {
-                        if (!resJson.source) {
-                            let text = waifu_tips.hitokoto_api_message['lwl12.com'][0];
-                            if (!resJson.author) text += waifu_tips.hitokoto_api_message['lwl12.com'][1];
-                            text = text.render({source: resJson.source, creator: resJson.author});
-                            window.setTimeout(function () {
-                                showMessage(text + waifu_tips.hitokoto_api_message['lwl12.com'][2], 3000, true);
-                            }, 5000);
-                        }
-                        showMessage(resJson.text, 5000, true);
-                    })
-                break;
-            case 'fghrsh.net':
-                window.fetch('https://api.fghrsh.net/hitokoto/rand/?encode=jsc&uid=3335')
-                    .then(res => res.json())
-                    .then(resJson => {
-                        if (!resJson.source) {
-                            let text = waifu_tips.hitokoto_api_message['fghrsh.net'][0];
-                            text = text.render({source: resJson.source, date: resJson.date});
-                            window.setTimeout(function () {
-                                showMessage(text, 3000, true);
-                            }, 5000);
-                            showMessage(resJson.hitokoto, 5000, true);
-                        }
-                    })
-                break;
-            case 'jinrishici.com':
-                window.fetch('https://v2.jinrishici.com/one.json')
-                    .then(res => res.json())
-                    .then(resJson => {
-                        if (!resJson.data.origin.title) {
-                            let text = waifu_tips.hitokoto_api_message['jinrishici.com'][0];
-                            text = text.render({
-                                title: resJson.data.origin.title,
-                                dynasty: resJson.data.origin.dynasty,
-                                author: resJson.data.origin.author
-                            });
-                            window.setTimeout(function () {
-                                showMessage(text, 3000, true);
-                            }, 5000);
-                        }
-                        showMessage(resJson.data.content, 5000, true);
-                    })
-                break;
-            default:
-                window.fetch('https://v1.hitokoto.cn')
-                    .then(res => res.json())
-                    .then(resJson => {
-                        if (!resJson.from) {
-                            let text = waifu_tips.hitokoto_api_message['hitokoto.cn'][0];
-                            text = text.render({source: resJson.from, creator: resJson.creator});
-                            window.setTimeout(function () {
-                                showMessage(text, 3000, true);
-                            }, 5000);
-                        }
-                        showMessage(resJson.hitokoto, 5000, true);
-                    })
-        }
+        const quotes = [
+            "Hard work beats talent when talent doesn't work hard.",
+            "The best way to predict the future is to invent it.",
+            "Success is not final, failure is not fatal: It is the courage to continue that counts."
+        ];
+    
+        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        showMessage(randomQuote, 5000, true);
     }
-
+    
     $$('.waifu-tool .icon-message').addEventListener('click', () => showHitokoto());
+    
+    
 }
 
 const addStyle = (() => {
