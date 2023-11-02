@@ -11,56 +11,44 @@
         {
           "Name": "吃了好吃的",
           "File": "motions/吃到好吃的.motion3.json",
-          "Sound": "sounds/吃了很多好吃的呢.mp3",
-          "SoundDelay": 500,
           "NextMtn": "Tap:派蒙会一直支持着你哦"
         },
         {
           "Name": "派蒙会一直支持着你哦",
           "File": "motions/派蒙一直支持着你哦.motion3.json",
-          "Sound": "sounds/一直支持着你哦.m4a",
           "Command": "open_url www.bilibili.com;stop_sound 1",
           "PreMtn": "Tap:吃了好吃的"
         },
         {
           "Name": "一看你张嘴就知道你要说什么",
-          "File": "motions/知道你要说什么.motion3.json",
-          "Sound": "sounds/这个笑话说很多次就不好笑了.m4a"
+          "File": "motions/知道你要说什么.motion3.json"
         },
         {
-          "File": "motions/最近好累啊.motion3.json",
-          "Sound": "sounds/最近好累啊.m4a"
+          "File": "motions/最近好累啊.motion3.json"
         },
         {
-          "File": "motions/这么说来你就是我的妹妹了.motion3.json",
-          "Sound": "sounds/这么说来你就是我的妹妹了.m4a"
+          "File": "motions/这么说来你就是我的妹妹了.motion3.json"
         },
         {
-          "File": "motions/咕嘟咕嘟.motion3.json",
-          "Sound": "sounds/咕嘟咕嘟咕嘟.m4a"
+          "File": "motions/咕嘟咕嘟.motion3.json"
         }
       ],
       "Tapsl": [
         {
           "Name": "啊 我明白了",
-          "File": "motions/啊我明白了.motion3.json",
-          "Sound": "sounds/啊我明白了.mp3"
+          "File": "motions/啊我明白了.motion3.json"
         },
         {
-          "File": "motions/好无聊.motion3.json",
-          "Sound": "sounds/好无聊啊.m4a"
+          "File": "motions/好无聊.motion3.json"
         }
       ],
       "Taphands": [
         {
-          "File": "motions/难道你在外面还有其他的应急食品吗.motion3.json",
-          "Sound": "sounds/你在外面还有其他食品.m4a"
+          "File": "motions/难道你在外面还有其他的应急食品吗.motion3.json"
         },
         {
           "Name": "对食物要有敬畏之心",
           "File": "motions/duishiwuyaoyoujingweizhixin.motion3.motion3.json",
-          "Sound": "sounds/对事物要有敬畏之心.m4a",
-          "SoundDelay": 500,
           "Priority": 5
         }
       ],
@@ -68,62 +56,50 @@
         {
           "Name": "嘿嘿嘿羡慕吧",
           "File": "motions/嘿嘿嘿，羡慕吗.motion3.json",
-          "Sound": "sounds/嘿嘿嘿羡慕吗.m4a",
           "MotionDuration": 300
         },
         {
           "Name": "欸",
-          "File": "motions/欸.motion3.json",
-          "Sound": "sounds/欸。。.m4a"
+          "File": "motions/欸.motion3.json"
         },
         {
-          "File": "motions/这个 我也不太清楚.motion3.json",
-          "Sound": "sounds/这个我也不太清楚.m4a"
+          "File": "motions/这个 我也不太清楚.motion3.json"
         },
         {
-          "File": "motions/派蒙不是宠物.motion3.json",
-          "Sound": "sounds/这犯规了吧.m4a"
+          "File": "motions/派蒙不是宠物.motion3.json"
         },
         {
-          "File": "motions/陪你旅行到现在.motion3.json",
-          "Sound": "sounds/陪你旅行到现在.m4a"
+          "File": "motions/陪你旅行到现在.motion3.json"
         },
         {
-          "File": "motions/嗯.motion3.json",
-          "Sound": "sounds/嗯！？.m4a"
+          "File": "motions/嗯.motion3.json"
         },
         {
-          "File": "motions/身体不太舒服.motion3.json",
-          "Sound": "sounds/身体不舒服.m4a"
+          "File": "motions/身体不太舒服.motion3.json"
         }
       ],
       "Taphead1": [
         {
           "Name": "欸？",
-          "File": "motions/欸.motion3.json",
-          "Sound": "sounds/欸。。.m4a"
+          "File": "motions/欸.motion3.json"
         }
       ],
       "Start": [
         {
-          "File": "motions/陪你旅行到现在.motion3.json",
-          "Sound": "sounds/陪你旅行到现在.m4a"
+          "File": "motions/陪你旅行到现在.motion3.json"
         }
       ],
       "Shake": [
         {
-          "File": "motions/嗯.motion3.json",
-          "Sound": "sounds/嗯！？.m4a"
+          "File": "motions/嗯.motion3.json"
         },
         {
-          "File": "motions/身体不太舒服.motion3.json",
-          "Sound": "sounds/身体不舒服.m4a"
+          "File": "motions/身体不太舒服.motion3.json"
         }
       ],
       "Leave": [
         {
-          "File": "motions/派蒙一直支持着你哦.motion3.json",
-          "Sound": "sounds/一直支持着你哦.m4a"
+          "File": "motions/派蒙一直支持着你哦.motion3.json"
         }
       ]
     }
