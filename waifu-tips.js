@@ -2,11 +2,11 @@
  く__,.ヘヽ.　　　　/　,ー､ 〉
  　　　　　＼ ', !-─‐-i　/　/´
  　　　 　 ／｀ｰ'　　　 L/／｀ヽ､                 Live2D Widget Setting
- 　　 　 /　 ／,　 /|　 ,　 ,　　　 ',               Version 2.0.0
- 　　　ｲ 　/ /-‐/　ｉ　L_ ﾊ ヽ!　 i                     Konata
+ 　　 　 /　 ／,　 /|　 ,　 ,　　　 ',               
+ 　　　ｲ 　/ /-‐/　ｉ　L_ ﾊ ヽ!　 i                     
  　　　 ﾚ ﾍ 7ｲ｀ﾄ　 ﾚ'ｧ-ﾄ､!ハ|　 |
  　　　　 !,/7 '0'　　 ´0iソ| 　 |　　　
- 　　　　 |.从"　　_　　 ,,,, / |./ 　 |      Add Live2D widget in your website.
+ 　　　　 |.从"　　_　　 ,,,, / |./ 　 |     
  　　　　 ﾚ'| i＞.､,,__　_,.イ / 　.i 　|
  　　　　　 ﾚ'| | / k_７_/ﾚ'ヽ,　ﾊ.　|       Thanks:
  　　　　　　 | |/i 〈|/　 i　,.ﾍ |　i　|    fghrsh / https://www.fghrsh.net/post/123.html
@@ -517,7 +517,7 @@ function loadTipsMessage(result) {
 
     function showHitokoto() {
         const quotes = [
-            "Hard work beats talent when talent doesn't work hard.",
+            "Read more visual novels",
             "The best way to predict the future is to invent it.",
             "People die when they are killed"
         ];
@@ -539,11 +539,11 @@ const addStyle = (() => {
 
 const blobDownload = (blob) => {
     if (typeof blob == 'object' && blob instanceof Blob) {
-        blob = URL.createObjectURL(blob); // 创建blob地址
+        blob = URL.createObjectURL(blob);
     }
     const aLink = document.createElement('a');
     aLink.href = blob;
-    aLink.download = live2d_settings.screenshotCaptureName || 'live2d.png'; // HTML5新增的属性，指定保存文件名，可以不要后缀，注意，file:///模式下不会生效
+    aLink.download = live2d_settings.screenshotCaptureName || 'live2d.png';
     let event;
     if (window.MouseEvent) event = new MouseEvent('click');
     else {
