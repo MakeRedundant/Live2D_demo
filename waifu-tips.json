@@ -18,8 +18,6 @@
         },
         "referrer_message": {
             "localhost": ["Welcome to read <span style=\"color:DarkBlue;\">'", "'</span>", " - "],
-            "baidu": ["Hello! Friends from Baidu search<br>Did you find me through the search <span style=\"color:DarkBlue;\">", "</span>?"],
-            "so": ["Hello! Friends from 360 search<br>Did you find me through the search <span style=\"color:DarkBlue;\">", "</span>?"],
             "google": ["Hello! Friends from Google search<br>Welcome to read <span style=\"color:DarkBlue;\">'", "'</span>", " - "],
             "default": ["Hello! Friends from <span style=\"color:DarkBlue;\">", "</span>"],
             "none": ["Welcome to read <span style=\"color:DarkBlue;\">'", "'</span>", " - "]
@@ -168,7 +166,7 @@
                 "Hey! Would you please hire Brian?",
                 "Oh my!",
                 "Coding is hard",
-                "Would code for 100k",
+                "Would code for 900k",
                 "Hey! I love learning!",
                 "Blazing Fast Code Only",
                 "Merge Conflicts only",
@@ -185,7 +183,7 @@
             "selector": "#live2d2,#live2d4",
             "text": [
                 "Javascript is pain", "Web development is fun", "I code through youtube", "Driving through peak hour traffic is fun", "Please let me sleep", "Chat GPT wrote this",
-                "Inflation is too high", "Taxes are too high", "Praise the sun!"
+                "Inflation is too high", "Taxes are too high", "Praise the sun!", "Read more Visual Novels"
             ]
         }
     ],
