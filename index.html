@@ -44,7 +44,10 @@
                 <a href="https://brian-trang-portfolio.netlify.app" class="btn" target="_blank">
                     Portfolio
                 </a>
-                <a class="btn" onclick="sessionStorage.removeItem('waifuHide');document.getElementById('waifu').classList.remove('hide');initModel()">
+                <a class="btn hide" id="hide-waifu-button">
+                    Hide Waifu
+                </a>
+                <a class="btn hide" id="show-waifu-button" onclick="sessionStorage.removeItem('waifuHide');document.getElementById('waifu').classList.remove('hide');initModel()">
                     Show Waifu
                 </a>
             </div>
@@ -69,6 +72,27 @@
     <canvas id="live2d2"></canvas>
     <canvas id="live2d4"></canvas>
 </div>
+<script>
+const showWaifuButton = document.getElementById('show-waifu-button');
+const hideWaifuButton = document.getElementById('hide-waifu-button');
+const waifuContainer = document.getElementById('waifu');
+console.log("button clicked", hideWaifuButton, showWaifuButton);
+
+
+hideWaifuButton.addEventListener('click', function() {
+    waifuContainer.classList.add('hide');
+    showWaifuButton.classList.remove('hide');
+    hideWaifuButton.classList.add('hide');
+});
+
+showWaifuButton.addEventListener('click', function() {
+    waifuContainer.classList.remove('hide');
+    showWaifuButton.classList.add('hide');
+    hideWaifuButton.classList.remove('hide');
+});
+
+
+</script>
 <!-- <script src="dist/live2d_bundle.js"></script> -->
 <script src="dist/live2d_bundle.js"></script>
 <script async type="module" src="waifu-tips.js"></script>

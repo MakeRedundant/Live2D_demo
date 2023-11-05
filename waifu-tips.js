@@ -88,11 +88,6 @@ const live2d_models = [
         message: 'SDK4 official sample Rice <a href="https://www.live2d.com/eula/live2d-free-material-license-agreement_en.html">LICENSE</a>',
         version: 3
     },
-    {
-        name: 'hijiki',
-        message: 'Cat',
-        version: 1
-    },
 ]
 /****************************************************************************************************/
 // SessionStorage LocalStorage
