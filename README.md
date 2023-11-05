@@ -20,7 +20,8 @@ stevenjoezhang https://github.com/stevenjoezhang/live2d-widget
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
-  
+<p><a href="https://www.live2d.com/en/ ">Live2d</a></p> 
+
 ## 📓 Table of Contents
 - [Live2D Project](#live2d-project)
   - [📄 Description](#-description)
@@ -57,14 +58,19 @@ Homepage
 
 Models included:
 
+Bronya
 ![Bronya](./assets/Bronya.png)
 
+Miku
 ![Miku](./assets/Miku.png)
 
+Paimon
 ![Paimon](./assets/Paimon.png)
 
+Shizuku
 ![Shizuku](./assets/Shizuku.png)
 
+Rice
 ![Rice](./assets/Rice.png)
 
 ## 📹 Video
