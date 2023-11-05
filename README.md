@@ -58,19 +58,24 @@ Homepage
 
 Models included:
 
-Bronya
+Bronya  
+  
 ![Bronya](./assets/Bronya.png)
 
-Miku
+Miku  
+
 ![Miku](./assets/Miku.png)
 
-Paimon
+Paimon  
+
 ![Paimon](./assets/Paimon.png)
 
-Shizuku
+Shizuku  
+
 ![Shizuku](./assets/Shizuku.png)
 
-Rice
+Rice  
+
 ![Rice](./assets/Rice.png)
 
 ## 📹 Video
