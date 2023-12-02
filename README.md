@@ -1,4 +1,6 @@
 # Live2D Project
+This is my first project using Live2D Models based on Cubism SDK 2.1 and Cubism SDK 4, which supports all live2d model including model3
+
 https://makeredundant.github.io/Live2D_demo  
 
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
@@ -13,7 +15,23 @@ https://makeredundant.github.io/Live2D_demo
 
 
 ## 📄 Description 
-This is my first project using Live2D Models based on Cubism SDK 2.1 and Cubism SDK 4, which supports all live2d model including model3
+Live2D models are animated 2D characters created using Live2D Cubism, a technology that allows artists to create dynamic animations from 2D illustrations. 
+
+Model Creation: Artists create Live2D models using software like Live2D Cubism Editor. They draw and rig 2D artwork in layers, defining movement, expressions, and deformations.
+
+Rigging and Parameterization: Artists use the Cubism Editor to set up parameters (such as eye blinking, facial expressions, etc.) and rig the model with bones and deformers to enable animation.
+
+Animation Control: Live2D models are animated by manipulating the parameters created during rigging. Parameters control various aspects like movement, expressions, and interactions.
+
+How Live2D Models Work:
+Rendering: The SDK provides functionalities to render the Live2D models onto different platforms, like web browsers, mobile apps, games, etc.
+
+Parameter Manipulation: By changing parameters like rotation, position, deformation, etc., the model's movements and expressions are controlled.
+
+Interactivity: Developers can create interactions with the models—such as clicking, dragging, or triggering specific animations based on user input.
+
+Integration: Live2D models can be integrated into various applications using the provided SDKs and APIs, allowing developers to bring these animated characters to life in their projects.
+
 huge credits to Konata09 since it was their starter code that made this possible https://github.com/Konata09/Live2dOnWeb  
 stevenjoezhang https://github.com/stevenjoezhang/live2d-widget 
 
