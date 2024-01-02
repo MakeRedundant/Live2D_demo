@@ -15,7 +15,7 @@ https://makeredundant.github.io/Live2D_demo
 
 ## 📓 Table of Contents
 - [Live2D Project](#live2d-project)
-  - [� Table of Contents](#-table-of-contents)
+  - [📓 Table of Contents](#-table-of-contents)
   - [💡🏡 Lighthouse](#-lighthouse)
   - [📄 Description](#-description)
   - [🪛 Technologies used](#-technologies-used)
@@ -31,7 +31,7 @@ https://makeredundant.github.io/Live2D_demo
 ## 💡🏡 Lighthouse
 This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
 
-![Lighthouse](./assets/Lighthouse-Portfolio.png)
+![Lighthouse](./assets/Lighthouse.png)
 
 ## 📄 Description 
 Live2D models are animated 2D characters created using Live2D Cubism, a technology that allows artists to create dynamic animations from 2D illustrations. 
