@@ -13,6 +13,25 @@ https://makeredundant.github.io/Live2D_demo
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-100%25-yellow.svg)
 
+## 📓 Table of Contents
+- [Live2D Project](#live2d-project)
+  - [� Table of Contents](#-table-of-contents)
+  - [💡🏡 Lighthouse](#-lighthouse)
+  - [📄 Description](#-description)
+  - [🪛 Technologies used](#-technologies-used)
+  - [🖥️ Installation](#️-installation)
+  - [💬 Usage](#-usage)
+  - [🖼️ Screenshot](#️-screenshot)
+  - [📹 Video](#-video)
+  - [⚖️ License](#️-license)
+  - [🤝 Contributing](#-contributing)
+  - [🛠️ Tests](#️-tests)
+  - [❔ Questions](#-questions)
+
+## 💡🏡 Lighthouse
+This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
+
+![Lighthouse](./assets/Lighthouse-Portfolio.png)
 
 ## 📄 Description 
 Live2D models are animated 2D characters created using Live2D Cubism, a technology that allows artists to create dynamic animations from 2D illustrations. 
@@ -35,24 +54,16 @@ Integration: Live2D models can be integrated into various applications using the
 huge credits to Konata09 since it was their starter code that made this possible https://github.com/Konata09/Live2dOnWeb  
 stevenjoezhang https://github.com/stevenjoezhang/live2d-widget 
 
-## 🪛 Technologies used 
-<p><a href="https://nodejs.org/">Node.js</a></p>
-<p><a href="https://www.npmjs.com/">NPM</a></p>
-<p><a href="https://www.live2d.com/en/ ">Live2d</a></p> 
+## 🪛 Technologies used
 
-## 📓 Table of Contents
-- [Live2D Project](#live2d-project)
-  - [📄 Description](#-description)
-  - [🪛 Technologies used](#-technologies-used)
-  - [📓 Table of Contents](#-table-of-contents)
-  - [🖥️ Installation](#️-installation)
-  - [💬 Usage](#-usage)
-  - [🖼️ Screenshot](#️-screenshot)
-  - [📹 Video](#-video)
-  - [⚖️ License](#️-license)
-  - [🤝 Contributing](#-contributing)
-  - [🛠️ Tests](#️-tests)
-  - [❔ Questions](#-questions)
+| Technology   | Description                          | Link                                    |
+|--------------|--------------------------------------|-----------------------------------------|
+| Node.js      | Server-side JavaScript runtime        | [Node.js](https://nodejs.org/)          |
+| NPM          | Node.js Package Manager              | [NPM](https://www.npmjs.com/)          |
+| Live2d       | Interactive animated characters      | [Live2d](https://www.live2d.com/en/)   |
+
+
+
     
 ## 🖥️ Installation 
 
